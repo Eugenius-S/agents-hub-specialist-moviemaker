@@ -1,0 +1,14 @@
+{
+  "name": "hub-specialist-moviemaker",
+  "owner": {
+    "name": "Agents Hub specialists"
+  },
+  "plugins": [
+    {
+      "name": "moviemaker",
+      "source": "./plugins/moviemaker",
+      "description": "Skills of the hub's video editor: editing and motion graphics principles.",
+      "version": "0.2.4"
+    }
+  ]
+}

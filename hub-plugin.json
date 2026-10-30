@@ -1,0 +1,30 @@
+{
+  "name": "moviemaker",
+  "kind": "specialist",
+  "version": "0.2.4",
+  "hub": "^1",
+  "icon": "🎬",
+  "description": "Video editor: assembles ad and product videos in After Effects (without AE, does it on its own), remembers the wins and failures of past edits",
+  "why": "A ready editor instead of building your own: AE first, show before render, project hygiene, a set of editing principles with numbers, memory of corrections, check cases",
+  "agent": {
+    "cwd": "~/moviemaker",
+    "tools": {
+      "need": [],
+      "optional": [
+        {
+          "id": "higgsfield-use-after-effects",
+          "why": "editing in local After Effects"
+        },
+        {
+          "id": "playwright",
+          "why": "recording HTML scenes and snapshots when there is no AE"
+        },
+        {
+          "id": "motion",
+          "why": "decisions on interface animation"
+        }
+      ]
+    },
+    "cases": "evals/cases.md"
+  }
+}
